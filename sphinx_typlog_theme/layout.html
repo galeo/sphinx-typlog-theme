@@ -61,7 +61,9 @@
       <link rel="prev" title="{{ prev.title|striptags|e }}" href="{{ prev.link|e }}"/>
     {%- endif %}
   {%- endblock %}
-  <script>{% include "js/ga.js" %}</script>
+  {% if theme_analytics_id %}
+    <script>{% include "js/ga.js" %}</script>
+  {% endif %}
   {%- block scripts %}
   {%- include "scripts.html" %}
   {%- endblock %}
