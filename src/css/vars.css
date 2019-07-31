@@ -19,7 +19,7 @@
   --font-english: "Roboto", "Helvetica Neue", "Helvetica";
   --font-cjk: "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
   --font-text: var(--font-english), var(--font-cjk), sans-serif;
-  --font-code: "Roboto Mono", Menlo, monospace;
+  --font-code: Inconsolata, "Roboto Mono", Menlo, monospace;
 
   --code-background: rgba(0, 0, 0, .02);
   --code-alt-background: rgba(0, 0, 0, .03);
