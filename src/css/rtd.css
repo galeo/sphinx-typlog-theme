@@ -4,12 +4,12 @@
   bottom: 0;
   width: 340px;
   max-width: 100%;
-  color: rgba(0, 0, 0, 0.68);
-  background-color: #f7f7f7;
+  color: rgba(255, 255, 255, 0.32);
+  background-color: #171717;
 }
 .injected .rst-versions.rst-badge .rst-current-version {
   text-align: right;
-  background-color: #eee;
+  background-color: #111;
 }
 
 .injected .rst-versions.rst-badge .fa-book {
@@ -18,11 +18,11 @@
 
 .injected .rst-versions .rst-current-version .fa,
 .injected .rst-versions .rst-other-versions dd a {
-  color: rgba(0, 0, 0, 0.68);
+  color: rgba(255, 255, 255, 0.32);
 }
 
 .injected .rst-versions .rst-other-versions hr {
-  border-color: #ddd;
+  border-color: #222;
 }
 
 @media (max-width: 960px) {

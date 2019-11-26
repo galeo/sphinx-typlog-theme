@@ -57,7 +57,7 @@ table.docutils td.label {
 
 body[data-page="search"] input[name="q"],
 .rst-other-versions input[name="q"] {
-  border: 2px solid rgba(0, 0, 0, 0.86);
+  border: 2px solid rgba(255, 255, 255, 0.48);
   padding: 0 10px;
   line-height: 38px;
   outline: none;
@@ -70,7 +70,7 @@ body[data-page="search"] input[type="submit"] {
 
 #searchbox .input-group {
   display: flex;
-  border: 2px solid rgba(0, 0, 0, 0.86);
+  border: 2px solid rgba(255, 255, 255, 0.48);
 }
 
 #searchbox .input-group > input[type="text"] {
@@ -78,6 +78,7 @@ body[data-page="search"] input[type="submit"] {
   outline: none;
   border: 0;
   padding: 0.6em 10px;
+  border-radius: 0;
 }
 
 body[data-page="search"] input[type="submit"],
@@ -88,7 +89,7 @@ body[data-page="search"] input[type="submit"],
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  background-color: rgba(0, 0, 0, 0.86);
+  background-color: rgba(0, 0, 0, 0.14);
   border: 0;
   transition: background-color 100ms;
   cursor: pointer;

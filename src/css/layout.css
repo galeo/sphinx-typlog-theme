@@ -4,8 +4,8 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background: #f9f9f9;
-  border-right: 1px solid #efefef;
+  background: #090909;
+  border-right: 1px solid #0f0f0f;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -18,17 +18,17 @@
 
 .t-sidebar a {
   text-decoration: none;
-  color: #334433;
+  color: #ccbbcc;
   border-bottom: 1px solid transparent;
 }
 .t-sidebar a:hover {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 .t-sidebar h3 {
   margin: 1em 0 0.2em;
   letter-spacing: -0.06em;
-  color: #252b31;
+  color: #dad4ce;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
 }
 
@@ -72,7 +72,7 @@
 
 .t-content > footer {
   font-size: 0.86em;
-  color: #999;
+  color: #666;
   padding: 20px 0;
 }
 
@@ -81,11 +81,11 @@
   margin-bottom: 1em;
   content: '';
   width: 100px;
-  border-top: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid rgba(255, 255, 255, 0.2);
 }
 
 .t-content > footer a {
-  color: #666;
+  color: #999;
   text-decoration: underline;
 }
 
@@ -130,8 +130,8 @@
     padding: 1em 20px;
     box-sizing: border-box;
     text-align: center;
-    border-bottom: 1px solid #efefef;
-    background: white;
+    border-bottom: 1px solid #1f1f1f;
+    background: black;
     z-index: 9;
   }
   .t-head_menu {
@@ -142,7 +142,7 @@
   .t-sidebar_close svg,
   .t-head_menu svg {
     width: 30px;
-    fill: #ccc;
+    fill: #666;
   }
   .t-head_logo {
     font-weight: 600;

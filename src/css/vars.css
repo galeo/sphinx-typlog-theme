@@ -1,6 +1,6 @@
 :root {
   --color-blue: #03A9F4;
-  --color-blue-alpha: rgba(3, 172, 244, 0.08);
+  --color-blue-alpha: rgba(3, 172, 244, 0.2);
   --color-green: #49C784;
   --color-yellow: #F7BA2A;
   --color-purple: #b37feb;
@@ -9,8 +9,8 @@
   --color-red: #FF612F;
 
   --color-primary: #E8371A;
-  --color-text: rgba(0, 0, 0, 0.68);
-  --color-heading: rgba(0, 0, 0, 0.98);
+  --color-text: rgba(255, 255, 255, 0.68);
+  --color-heading: rgba(255, 255, 255, 0.98);
   --color-code: #F55826;
 
   --color-autodoc-background: rgba(245,88,38,.05);
@@ -21,6 +21,12 @@
   --font-text: var(--font-english), var(--font-cjk), sans-serif;
   --font-code: Inconsolata, "Roboto Mono", Menlo, monospace;
 
-  --code-background: rgba(0, 0, 0, .02);
-  --code-alt-background: rgba(0, 0, 0, .03);
+  --code-background: rgba(255, 255, 255, .15);
+  --code-alt-background: rgba(255, 255, 255, .2);
+
+  --color-background: rgba(0, 0, 0, 1);
+}
+
+html {
+    background-color: var(--color-background);
 }

@@ -51,7 +51,7 @@
   color: var(--color-heading);
   word-wrap: break-word;
   text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.36);
 }
 
 .yue a:hover {
@@ -68,13 +68,13 @@
 .yue b {
   -webkit-font-smoothing: antialiased;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .yue em,
 .yue i {
   font-style: italic;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .yue img,
@@ -112,12 +112,12 @@
   margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.42);
+  color: rgba(255, 255, 255, 0.42);
 }
 
 .yue figcaption a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.42);
+  color: rgba(255, 255, 255, 0.42);
 }
 
 .yue hr {
@@ -125,7 +125,7 @@
   width: 90%;
   max-width: 100px;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.04);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin: 1.42em auto 1.84em;
 }
 
@@ -133,12 +133,12 @@
   position: relative;
   padding: 0 1em 0 2em;
   margin: 1.2em 0;
-  color: rgba(0, 0, 0, 0.68);
-  border-left: 6px solid rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.68);
+  border-left: 6px solid rgba(255, 255, 255, 0.2);
 }
 
 .yue blockquote a {
-  color: rgba(0, 0, 0, 0.68);
+  color: rgba(255, 255, 255, 0.68);
 }
 
 .yue ul,
@@ -179,7 +179,7 @@
 
 .yue code,
 .yue tt {
-  background-color: rgba(220, 220, 220, 0.2);
+  background-color: rgba(35, 35, 35, 0.2);
   color: var(--color-code);
   font-size: 0.96em;
   padding: 1px 4px;
@@ -202,7 +202,7 @@
 
 .yue pre code,
 .yue pre tt {
-  color: rgba(0, 0, 0, 0.68);
+  color: rgba(255, 255, 255, 0.68);
   border: none;
   background: none;
   padding: 0;
@@ -243,7 +243,7 @@
 .yue table[border] td {
   text-align: left;
   padding: 6px 8px 6px 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #222;
 }
 
 .yue table[border] td {
@@ -251,5 +251,5 @@
 }
 
 .yue table[border] tr:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.01);
+  background-color: rgba(255, 255, 255, 0.1);
 }

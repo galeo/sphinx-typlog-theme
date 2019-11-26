@@ -8,13 +8,13 @@ with codecs.open('README.rst', encoding='utf-8') as f:
     readme = f.read()
 
 setup(
-    name='sphinx_typlog_theme',
+    name='sphinx_typlog_dark_theme',
     version=__version__,
     description='A typlog Sphinx theme',
     long_description=readme,
-    author='Hsiaoming Yang',
-    author_email='me@lepture.com',
-    url='https://github.com/typlog/sphinx-typlog-theme',
+    author='Hsiaoming Yang, Yuwei Tian',
+    author_email='ibluefocus@outlook.com',
+    url='https://github.com/galeo/sphinx-typlog-dark-theme',
     packages=['sphinx_typlog_theme'],
     include_package_data=True,
     entry_points={

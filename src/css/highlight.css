@@ -35,7 +35,7 @@
   right: 0;
   padding: 2px 10px;
   border-radius: 0 4px;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.6);
   background-color: var(--code-alt-background);
 }
 
@@ -48,7 +48,7 @@
   background-color: var(--code-alt-background);
 }
 .highlighttable .linenodiv pre {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.5);
 }
 .highlighttable .highlight {
   padding-left: 10px;

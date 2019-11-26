@@ -4,7 +4,7 @@
 /* -- headerlink -- */
 a.headerlink {
   margin-left: 1px;
-  color: rgba(0, 0, 0, 0.24);
+  color: rgba(255, 255, 255, 0.76);
   text-decoration: none;
   visibility: hidden;
   border-width: 0;
@@ -33,14 +33,14 @@ a.toc-backref {
 .contents {
   display: inline-block;
   padding: 16px 40px 16px 0;
-  background: #f9f9f9;
+  background: #292929;
   min-width: 240px;
   font-size: 13px;
   font-weight: 500;
   border-radius: 5px;
 }
 .contents .topic-title {
-  color: rgba(0,0,0,.4);
+  color: rgba(255, 255, 255, .4);
   padding-left: 16px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -59,7 +59,7 @@ a.toc-backref {
 
 .contents a {
   border-bottom: 0;
-  color: rgba(0,0,0,.5);
+  color: rgba(255, 255, 255, .5);
 }
 
 /* -- TOC end -- */
@@ -100,7 +100,7 @@ dl.data dt,
 dl.exception dt,
 dl.function dt {
   padding: 5px;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   border-top: 2px solid var(--color-autodoc-border);
   background: var(--color-autodoc-background);
 }
@@ -119,7 +119,7 @@ dl.data dt > em,
 dl.exception dt > em,
 dl.function dt > em {
   font-size: 0.98em;
-  color: rgba(0, 0, 0, 0.68);
+  color: rgba(255, 255, 255, 0.68);
 }
 /* -- API references end -- */
 
