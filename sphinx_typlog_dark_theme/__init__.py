@@ -7,8 +7,8 @@ def get_path():
     """Shortcut for users to access this theme. If you are using
     Sphinx < 1.7, you can add it into html_theme_path::
 
-        import sphinx_typlog_theme
-        html_theme_path = [sphinx_typlog_theme.get_path()]
+        import sphinx_typlog_dark_theme
+        html_theme_path = [sphinx_typlog_dark_theme.get_path()]
 
     :return: theme path
     """
@@ -57,7 +57,7 @@ def add_github_roles(app, repo):
     Use this function in ``conf.py`` to enable this feature::
 
         def setup(app):
-            sphinx_typlog_theme.add_github_roles(app, 'lepture/authlib')
+            sphinx_typlog_dark_theme.add_github_roles(app, 'lepture/authlib')
 
     :param app: sphinx app
     :param repo: GitHub repo, e.g. "lepture/authlib"
@@ -92,6 +92,6 @@ def setup(app):
     # add_html_theme is new in Sphinx 1.6+
     if hasattr(app, 'add_html_theme'):
         theme_path = os.path.abspath(os.path.dirname(__file__))
-        app.add_html_theme('sphinx_typlog_theme', theme_path)
+        app.add_html_theme('sphinx_typlog_dark_theme', theme_path)
 
     return {'version': __version__, 'parallel_read_safe': True}

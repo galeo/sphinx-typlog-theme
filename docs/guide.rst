@@ -18,12 +18,12 @@ How to Use
 To use **sphinx typlog theme** in your documentation, configure it in
 ``conf.py``::
 
-    html_theme = 'sphinx_typlog_theme'
+    html_theme = 'sphinx_typlog_dark_theme'
 
 If you are using Sphinx < 1.7, you can add it into ``html_theme_path``::
 
-    import sphinx_typlog_theme
-    html_theme_path = [sphinx_typlog_theme.get_path()]
+    import sphinx_typlog_dark_theme
+    html_theme_path = [sphinx_typlog_dark_theme.get_path()]
 
 Other Options
 -------------

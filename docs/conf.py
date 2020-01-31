@@ -3,8 +3,8 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
-from sphinx_typlog_theme import __version__
-from sphinx_typlog_theme import (
+from sphinx_typlog_dark_theme import __version__
+from sphinx_typlog_dark_theme import (
     add_badge_roles,
     add_github_roles,
 )
@@ -54,7 +54,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_typlog_theme'
+html_theme = 'sphinx_typlog_dark_theme'
 html_theme_options = {
     'color': '#E8371A',
     'logo': 'typlog-512.png',

@@ -1,4 +1,4 @@
 include LICENSE
 include README.rst
-recursive-include sphinx_typlog_theme *.*
-recursive-exclude sphinx_typlog_theme *.pyc
+recursive-include sphinx_typlog_dark_theme *.*
+recursive-exclude sphinx_typlog_dark_theme *.pyc

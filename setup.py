@@ -2,7 +2,7 @@
 
 import codecs
 from setuptools import setup
-from sphinx_typlog_theme import __version__
+from sphinx_typlog_dark_theme import __version__
 
 with codecs.open('README.rst', encoding='utf-8') as f:
     readme = f.read()
@@ -15,11 +15,11 @@ setup(
     author='Hsiaoming Yang, Yuwei Tian',
     author_email='ibluefocus@outlook.com',
     url='https://github.com/galeo/sphinx-typlog-dark-theme',
-    packages=['sphinx_typlog_theme'],
+    packages=['sphinx_typlog_dark_theme'],
     include_package_data=True,
     entry_points={
         'sphinx.html_themes': [
-            'sphinx_typlog_theme = sphinx_typlog_theme',
+            'sphinx_typlog_dark_theme = sphinx_typlog_dark_theme',
         ]
     },
     extras_require={

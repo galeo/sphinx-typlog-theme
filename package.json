@@ -1,12 +1,12 @@
 {
-  "name": "sphinx-typlog-theme",
+  "name": "sphinx-typlog-dark-theme",
   "version": "0.1.0",
   "private": true,
   "description": "A sphinx theme",
   "scripts": {
     "build": "npm run build:css && npm run build:js",
-    "build:css": "cleancss src/index.css -o sphinx_typlog_theme/static/typlog.css",
-    "build:js": "uglifyjs src/app.js -o sphinx_typlog_theme/js/app.js"
+    "build:css": "cleancss src/index.css -o sphinx_typlog_dark_theme/static/typlog.css",
+    "build:js": "uglifyjs src/app.js -o sphinx_typlog_dark_theme/js/app.js"
   },
   "author": "",
   "license": "",

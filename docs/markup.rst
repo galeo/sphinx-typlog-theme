@@ -213,7 +213,7 @@ GitHub
 API References
 --------------
 
-.. module:: sphinx_typlog_theme
+.. module:: sphinx_typlog_dark_theme
 
 .. autofunction:: get_path
 .. autofunction:: add_github_roles
