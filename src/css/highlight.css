@@ -1,8 +1,7 @@
 /* -- highlight begin -- */
 .highlighted {
   padding: 1px 4px;
-  opacity: 0.6;
-  color: white;
+  color: inherit;
 }
 
 .highlight,
